@@ -93,48 +93,103 @@ nav li a:hover {
     width: 41.7%;
 }
 /*Main menu*/
-.main-menu {
+@font-face {
+    font-family: "Rocket-Vintage";
+    src: url(../font/Rocket\ Vintage.ttf);
+}
+body {
+    font-family: 'Advent Pro', sans-serif;
     background: url("../img/background.jpg");
-    padding: 75px;
-    border-bottom:  1px solid black;
-    border-top: 3px solid black;
 }
-.menu-body {
-    width: 70%;
-    margin: 0 auto;;
-    box-shadow: 0px 0px 42px 21px rgba(0,0,0,0.75);
-    height: 300px;
+.navbar {
+    background-color: #727272;
 }
-.main-menu p{
-color: white;
-font-size: 30px;
-font-weight: bold;
-background-color: #333;
-border-radius: 10px;
-width: fit-content;
-margin: 20px auto;
-padding: 5px;
+.navbar-brand {
+    font-size: 80px;
+}
+.nav-link {
+    font-size: 40px;
+}
+.navbar-toggler {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #383a3f;
+}
+/*-------------------------------------------------------------------MENU*/
+.main-menu {
+    padding-top: 150px;
 }
 .menu-body img {
-    height: 300px;
-    float: left;
+    margin-bottom: 10px;
 }
-.starter1{ width: 25% }
-.starter2{ width: 25% }
-.starter3{ width: 25% }
-.starter4{ width: 25% }
-.plat1{ width: 25% }   
-.plat2{ width: 25% }   
-.plat3{ width: 25% } 
-.plat4{ width: 25% }   
-.dessert1 { width: 25% }
-.dessert2 { width: 25% }
-.dessert3 { width: 25% }
-.dessert4 { width: 25% } 
-.drink1 { width: 25% }
-.drink2 { width: 25% }
-.drink3 { width: 25% }
-.drink4 { width: 25% }
+.titlePage {
+    background-color: #FFF;
+    text-align: center;
+    color: #727272;
+    font-size: 50px;
+    margin: 10px 0 10px 0;
+    border-radius: 10px;
+}
+.titleMenu {
+    background-color: #727272;
+    text-align: center;
+    color: #FFF;
+    font-size: 30px;
+    margin: 10px 0 10px 0;
+    border-radius: 10px;
+}
+.no-padding > [class*="imageMenu"] {
+    padding-right:0;
+    padding-left:0;
+    }
+/*Footer*/
+footer {
+    background-color: #333333;
+    height: auto;
+}
+.footer-adress {
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+    letter-spacing: 1px;
+}
+.footer-social {
+    margin-top: 50px;
+}
+.payment img {
+    height: 50px;
+    margin: 0 20px;
+}
+.social-link {
+    font-size: 50px;
+    right: 20px;
+}
+.social-link a {
+color: black;
+}    
+.footer-social img {
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 576px) {
+    .navbar-brand {
+        font-size: 60px;
+    }
+    .imgPay {
+        width: 100px;
+        height: 50px;
+    }
+    .social-link i {
+        width: 21px;
+        height: 30px;
+        margin: 0 10px 0 10px;
+    }
+    .imageMenu {
+        width: 50%;
+    }
+  }
+  /*-------------------------------------------------------------------MENU*/
 /*Main contact*/
 .main-contact {
     padding: 15px;
