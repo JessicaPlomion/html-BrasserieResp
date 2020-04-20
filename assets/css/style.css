@@ -1,3 +1,7 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
 @font-face {
     font-family: "Rocket-Vintage";
     src: url(../font/Rocket\ Vintage.ttf);
@@ -8,6 +12,7 @@ body {
 
 .navbar {
     background-color: #727272;
+    background-color: #383a3f;
 }
 .navbar-brand {
     font-size: 80px;
@@ -82,15 +87,18 @@ li{
     width: 100%;
     margin: 0px;
     text-align: center;
+    background-color: #6a6262;
 }
 
 footer {
     background-color: #333333;
+    background-color: #383a3f;
     height: auto;
 }
 .footer-adress {
     color: #FFF;
 
+    font-size: 20px;
     text-align: center;
     padding-top: 25px;
     letter-spacing: 1px;
@@ -126,9 +134,54 @@ color: black;
         width: 21px;
         height: 30px;
         margin: 0px 10px 0 10px;
+        margin: 0 10px 0 10px;
     }
     .footer-adress {
         font-size: 20px;
     }
 
   }
+/*Galerie*/
+.main {
+    background: url("../img/background.jpg");
+    padding-top: 170px;
+}
+.opinion {
+    color: white;
+    background-color: #6a6262;
+    border: 3px #6a6262 outset;
+    overflow: auto;
+    border-radius: 10px;
+    overflow: auto;
+    height: 200px;
+}
+.opinion p{
+    padding-bottom: 1%;
+ } 
+.textimg {
+    color: white;
+    background-color: #6a6262;
+    border: 3px #6a6262 outset;
+    border-radius: 5px;
+} 
+#leaveOpinion {
+    color: white;
+    background-color: #6a6262;
+    border: 3px #6a6262 outset;
+    border-radius: 5px;
+}
+ul li {
+    list-style-type: none;
+}
+button {
+    color: white;
+    background-color: #383a3f;
+    border-radius: 5px;
+    float: right;
+}
+input {
+    border-radius: 5px;
+}
+h3 {
+    color: white;
+}
