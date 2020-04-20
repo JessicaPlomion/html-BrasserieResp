@@ -1,7 +1,4 @@
-* {
-    margin: 0 auto;
-    padding: 0 auto;
-}
+
 @font-face {
     font-family: "Rocket-Vintage";
     src: url(../font/Rocket\ Vintage.ttf);
@@ -9,9 +6,7 @@
 body {
     font-family: 'Advent Pro', sans-serif;
 }
-
 .navbar {
-    background-color: #727272;
     background-color: #383a3f;
 }
 .navbar-brand {
@@ -137,7 +132,6 @@ color: black;
     padding: 50px;
     padding-top: 70px;
     margin-top: 60px;
-    
 }
 li{
     margin-top:30px;
@@ -219,8 +213,6 @@ color: black;
 .footer-social img {
     margin-bottom: 30px;
 }
-
-
 @media screen and (max-width: 576px) {
     .navbar-brand {
         font-size: 60px;
@@ -238,9 +230,11 @@ color: black;
     .footer-adress {
         font-size: 20px;
     }
-
   }
 /*Galerie*/
+.main div {
+    margin: 0 auto;
+}
 .main {
     background: url("../img/background.jpg");
     padding-top: 170px;
