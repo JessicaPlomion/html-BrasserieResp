@@ -1,21 +1,4 @@
-
-@font-face {
-    font-family: "Rocket-Vintage";
-    src: url(../font/Rocket\ Vintage.ttf);
-}
-body {
-    font-family: 'Advent Pro', sans-serif;
-}
-.navbar {
-    background-color: #383a3f;
-}
-.navbar-brand {
-    font-size: 80px;
-}
-.nav-link {
-    font-size: 40px;
-}
-/*Main menu*/
+/*--------------MENU NAVBAR-------------------------*/
 @font-face {
     font-family: "Rocket-Vintage";
     src: url(../font/Rocket\ Vintage.ttf);
@@ -39,33 +22,7 @@ body {
     border-radius: 20px;
     background-color: #383a3f;
 }
-/*-------------------------------------------------------------------MENU*/
-.main-menu {
-    padding-top: 150px;
-}
-.menu-body img {
-    margin-bottom: 10px;
-}
-.titlePage {
-    background-color: #FFF;
-    text-align: center;
-    color: #727272;
-    font-size: 50px;
-    margin: 10px 0 10px 0;
-    border-radius: 10px;
-}
-.titleMenu {
-    background-color: #727272;
-    text-align: center;
-    color: #FFF;
-    font-size: 30px;
-    margin: 10px 0 10px 0;
-    border-radius: 10px;
-}
-.no-padding > [class*="imageMenu"] {
-    padding-right:0;
-    padding-left:0;
-    }
+/*--------------------------FOOTER------------------------*/
 /*Footer*/
 footer {
     background-color: #333333;
@@ -95,6 +52,36 @@ color: black;
 .footer-social img {
     margin-bottom: 30px;
 }
+/*-----------------CSS JULIEN--------------------------------*/
+/*MENU*/
+.main-menu {
+    padding-top: 150px;
+}
+.menu-body img {
+    margin-bottom: 10px;
+}
+.titlePage {
+    width: 100%;
+    background-color: #FFF;
+    text-align: center;
+    color: #727272;
+    font-size: 50px;
+    margin: 10px 0 10px 0;
+    border-radius: 10px;
+}
+.titleMenu {
+    width: 100%;
+    background-color: #727272;
+    text-align: center;
+    color: #FFF;
+    font-size: 30px;
+    margin: 10px 0 10px 0;
+    border-radius: 10px;
+}
+.no-padding > [class*="imageMenu"] {
+    padding-right:0;
+    padding-left:0;
+    }
 @media screen and (max-width: 576px) {
     .navbar-brand {
         font-size: 60px;
@@ -112,14 +99,54 @@ color: black;
         width: 50%;
     }
   }
-  /*-------------------------------------------------------------------MENU*/
-/*Main contact*/
-.navbar-toggler {
-    width: 80px;
-    height: 80px;
-    border-radius: 20px;
-    background-color: #383a3f;
+/*-----------------CSS JESSICA--------------------------------*/
+  .main-index {
+    background: url("../img/background.jpg");
+    padding-top: 170px;
 }
+.opinion {
+    color: white;
+    background-color: #6a6262;
+    border: 3px #6a6262 outset;
+    overflow: auto;
+    border-radius: 10px;
+    overflow: auto;
+    height: 200px;
+}
+.opinion p{
+    padding-bottom: 1%;
+ } 
+.textimg {
+    color: white;
+    background-color: #6a6262;
+    border: 3px #6a6262 outset;
+    border-radius: 5px;
+} 
+#leaveOpinion {
+    color: white;
+    background-color: #6a6262;
+    border: 3px #6a6262 outset;
+    border-radius: 5px;
+}
+ul li {
+    list-style-type: none;
+}
+button {
+    color: white;
+    background-color: #383a3f;
+    border-radius: 5px;
+    float: right;
+}
+input {
+    border-radius: 5px;
+}
+h3 {
+    color: white;
+}
+.main-index div {
+    margin: 0 auto;
+}
+/*-----------------CSS KAMEL--------------------------------*/
 .main-contact {
     padding: 15px;
     background: url("../img/background.jpg");
@@ -136,7 +163,6 @@ color: black;
 li{
     margin-top:30px;
     font-size:25px;
-    
 }
 #title2 {
     text-align: center;
@@ -182,99 +208,120 @@ li{
     text-align: center;
     background-color: #6a6262;
 }
+#booking ol {
+    padding-left:0px;
+}
+@media screen and (min-width: 601px) {
+    #booking li {
+        font-size: 1.2em;
+    }/*
+    p {
+        font-size: 1.2em;
+    }*/
+    #booking input {
+        width: 94%;
+    }
+}
+@media screen and (max-width: 600px) {
+    #booking li {
+        font-size: 0.8em;
+    }/*
+    p {
+        font-size: 0.8em;
+    }*/
+    #booking input {
+        width: 80%;
+    }
+}
+/*-----------------CSS FRANCOIS--------------------------------*/
 
-footer {
-    background-color: #333333;
-    background-color: #383a3f;
-    height: auto;
-}
-.footer-adress {
-    color: #FFF;
-
-    font-size: 20px;
-    text-align: center;
-    padding-top: 25px;
-    letter-spacing: 1px;
-}
-.footer-social {
-    margin-top: 50px;
-}
-.payment img {
-    height: 50px;
-    margin: 20px;
-}
-.social-link {
-    font-size: 50px;
-    right: 20px;
-}
-.social-link a {
-color: black;
-}
-.footer-social img {
-    margin-bottom: 30px;
-}
-@media screen and (max-width: 576px) {
-    .navbar-brand {
-        font-size: 60px;
+@media screen and (max-width:480px) {
+    .main-accueil {
+        margin-top: 116px;
+        padding: 20px;
+        background: url("../img/background.jpg");
+        border-bottom:  1px solid black;
+        border-top: 3px solid black;
     }
-    .imgPay {
-        width: 100px;
-        height: 50px;
+    .container {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: 100%;
     }
-    .social-link i {
-        width: 21px;
-        height: 30px;
-        margin: 0px 10px 0 10px;
-        margin: 0 10px 0 10px;
+    .main-body img {
+        height: 120px;
+        float: left;
     }
-    .footer-adress {
-        font-size: 20px;
+    .main-item-1 {
+        width: 45%;
     }
-  }
-/*Galerie*/
-.main div {
-    margin: 0 auto;
-}
-.main {
-    background: url("../img/background.jpg");
-    padding-top: 170px;
-}
-.opinion {
-    color: white;
-    background-color: #6a6262;
-    border: 3px #6a6262 outset;
-    overflow: auto;
-    border-radius: 10px;
-    overflow: auto;
-    height: 200px;
-}
-.opinion p{
-    padding-bottom: 1%;
- } 
-.textimg {
-    color: white;
-    background-color: #6a6262;
-    border: 3px #6a6262 outset;
-    border-radius: 5px;
-} 
-#leaveOpinion {
-    color: white;
-    background-color: #6a6262;
-    border: 3px #6a6262 outset;
-    border-radius: 5px;
-}
-ul li {
-    list-style-type: none;
-}
-button {
-    color: white;
-    background-color: #383a3f;
-    border-radius: 5px;
-    float: right;
-}
-input {
-    border-radius: 5px;
-}
-h3 {
-    color: white;
+    .main-item-2 {
+        width: 45%;
+    }
+    .main-item-3 {
+        width: 45%;
+    }
+    .main-item-4 {
+        width: 45%;
+    }
+    .main-item-5 {
+        width: 45%;
+    }
+    .main-item-6 {
+        width: 45%;
+    }
+    .main-item-7 {
+        width: 45%;
+    }
+    .main-item-8 {
+        width: 45%;
+    }
+    .main-item-9 {
+        width: 45%;
+    }
+    }
+@media screen and (min-width:480px) and (max-width: 2000px) {
+    .main-accueil {
+        margin-top: 120px;
+        padding: 75px;
+        background: url("../img/background.jpg");
+        border-bottom:  1px solid black;
+        /*border-top: 3px solid black;*/
+    }
+    .main-body {
+        display: flex;
+    }
+    .main-body img {
+        height: 290px;
+        float: left;
+    }
+    .main-item-1 {
+        width: 35%;
+    }
+    .main-item-2 {
+        width: 37%;
+    }
+    .main-item-3 {
+        width: 28%;
+    }
+    .main-item-4 {
+        width: 33.3%;
+    }
+    .main-item-5 {
+        width: 33.3%;
+    }
+    .main-item-6 {
+        width: 33.3%;
+    }
+    .main-item-7 {
+        width: 33.3%;
+    }
+    .main-item-8 {
+        width: 25%;
+    }
+    .main-item-9 {
+        width: 41.7%;
+    }
 }
